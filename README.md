@@ -21,11 +21,17 @@ https://api.openweathermap.org/data/2.5/weather?q={CITY_NAME}&appid={YOUR_API_KE
 ## 🖥️ Sample Output:
 
 **When valid input:**  
+```
 🌡 Temperature: 23°C  
 🌥 Description: light rain  
+```
 
 **❌ When error (empty city):**  
+```
 ⚠️ You must enter a city name!  
+```
 
 **❌ When data incomplete (simulated):**  
+```
 ⚠️ Weather data is incomplete!
+```
